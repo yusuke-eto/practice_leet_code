@@ -32,6 +32,28 @@ def delete_duplicates(head)
     head
 end
 
+# Answer2
+# @param {ListNode} head
+# @return {ListNode}
+# def delete_duplicates(head)
+#     return if head.nil?
+#     return head if head.next.nil?
+
+#     return if head.nil?
+#     return head if head.next.nil?
+
+#     copy = head
+#     while !copy.next.nil?
+#         if copy.val == copy.next.val
+#             copy.next = copy.next.next
+#         else
+#             copy = copy.next
+#         end
+#     end
+    
+#     head
+# end
+
 l1 = ListNode.new(1)
 l2 = ListNode.new(1)
 l3 = ListNode.new(2)
