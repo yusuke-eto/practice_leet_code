@@ -48,7 +48,7 @@ def binary_search_and_insert(array, val)
 
     head, tail = 0, array.length - 1
 
-    while head <= tail do
+    while head < tail do
         n = (head + tail) / 2
 
         if val == array[n]
