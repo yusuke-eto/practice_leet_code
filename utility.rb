@@ -33,7 +33,7 @@ def binary_search_and_insert(array, val)
     end
   
     [*array[0...head], val, *array[head..]]
-  end
+end
 
   a = [1,3,7, 9, 15, 21]
   p binary_search_and_insert(a, 5)
